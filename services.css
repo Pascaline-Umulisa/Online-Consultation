@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(177, 223, 201);
+}
+nav{
+    margin-left: 900px;
+    margin-top: 1cm;
+    
+}
+a{
+    padding-right: 1cm;
+    text-decoration: none;
+    color: black;
+
+}
+.cons{
+    float: left;
+    border: solid black;
+    background-color: rgb(155, 154, 154);
+    padding: 2cm;
+    margin: 1cm;
+}

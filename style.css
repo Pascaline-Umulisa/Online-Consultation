@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(177, 223, 201);
+}
+nav{
+   text-align: right;  
+}
+a{
+    padding-right: 1cm;
+    text-decoration: none;
+    color: black;  
+}
+h1{
+    margin-left: 1cm;
+}
+.container{
+    margin-left: 400px;
+}
+.texts{
+    text-align: center;
+    margin-bottom: 1cm;
+}
+.logo{
+     margin-top: 1cm;
+     margin-left: 1cm;
+}
+button{
+    font-size: large;
+    background-color: gray;
+    
+}
