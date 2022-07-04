@@ -1,19 +1,40 @@
 body{
-    background-color: rgb(177, 223, 201);
+    background-color: rgb(190, 209, 200);
+    margin: 0%;
+    border: solid 45px gray;
 }
 nav{
-    margin-left: 900px;
-    margin-top: 1cm;
-    
+    /* background-color: red; */
+    width: 40%;
+    margin-left: 40%;  
+    margin-top: 2% ;
+}
+.navigation{
+    display: flex;
+    margin-top: 1%;
 }
 a{
-    padding-right: 1cm;
+    /* padding-right: 1cm; */
     text-decoration: none;
-    color: black;
-
+    margin-right: 5%;
+    color: rgb(15, 15, 15);  
+    font-size: 20px;
+    background-color: rgb(184, 184, 219);
+    padding: 0.5% 7%;
+}
+.logo{
+    color: rgb(10, 9, 110);
+}
+.logo::before{
+    content: '';
+    background-color: red;
+   
+}
+.consultation{
+    display: flex;
 }
 .cons{
-    float: left;
+    /* float: left; */
     border: solid black;
     background-color: rgb(155, 154, 154);
     padding: 2cm;
