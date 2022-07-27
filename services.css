@@ -1,42 +1,75 @@
 body{
-    background-color: rgb(190, 209, 200);
+    background-color: rgb(4, 60, 87);
     margin: 0%;
-    border: solid 45px gray;
+    border: solid 45px rgb(247, 244, 244);
+    color: white;
+    position: relative;
+
+}
+.back{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    opacity: 0.2;
+    width: 70%;
 }
 nav{
     /* background-color: red; */
-    width: 40%;
-    margin-left: 40%;  
+    width: 50%;
+    margin-left: 30%;  
     margin-top: 2% ;
 }
 .navigation{
     display: flex;
     margin-top: 1%;
 }
-a{
+nav a{
     /* padding-right: 1cm; */
     text-decoration: none;
-    margin-right: 5%;
+    margin-right: 2%;
     color: rgb(15, 15, 15);  
     font-size: 20px;
-    background-color: rgb(184, 184, 219);
-    padding: 0.5% 7%;
+    background-color: rgb(247, 247, 252);
+    padding: 0.5% 6%;
+    /* width: 50%; */
+    border-radius: 10px;
+}
+/* h1{
+    margin-left: 1cm;
+} */
+.container{
+    margin-left: 300px;
+    background-color: rgb(252, 252, 252);
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+.texts{
+    text-align: center;
+    /* margin-bottom: 1cm; */
 }
 .logo{
-    color: rgb(10, 9, 110);
+    color: rgb(105, 192, 214);
+    margin-left: 7%;
+    margin-top: 2%;
 }
 .logo::before{
     content: '';
-    background-color: red;
-   
+    background-color: rgb(252, 249, 251);
+    display: block;
+    width: 5em;
+    height: 5px;
 }
 .consultation{
     display: flex;
 }
 .cons{
     /* float: left; */
-    border: solid black;
+    border: solid 1px black;
     background-color: rgb(155, 154, 154);
-    padding: 2cm;
-    margin: 1cm;
+    width: 250px;
+    height: 200px;
+    /* padding: 2cm; */
+    /* margin-left: 5%; */
+
 }
