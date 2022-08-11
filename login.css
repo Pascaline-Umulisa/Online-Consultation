@@ -1,63 +1,109 @@
 body{
-    background-color: rgb(190, 209, 200);
+    background-color: rgb(4, 60, 87);
     margin: 0%;
-    border: solid 45px gray;
+    border: solid 45px rgb(247, 244, 244);
+    color: white;
+    position: relative;
+
+}
+.back{
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    opacity: 0.2;
+    width: 70%;
 }
 nav{
     /* background-color: red; */
-    width: 40%;
-    margin-left: 40%;  
+    width: 50%;
+    margin-left: 30%;  
     margin-top: 2% ;
 }
 .navigation{
     display: flex;
     margin-top: 1%;
 }
-a{
+nav a{
     /* padding-right: 1cm; */
     text-decoration: none;
-    margin-right: 5%;
+    margin-right: 2%;
     color: rgb(15, 15, 15);  
     font-size: 20px;
-    background-color: rgb(184, 184, 219);
-    padding: 0.5% 7%;
+    background-color: rgb(247, 247, 252);
+    padding: 0.5% 4%;
+    /* width: 50%; */
+    border-radius: 2px;
+}
+nav a:hover{
+    background-color: rgb(197, 212, 219);
+}
+.active{
+    background-color: rgb(4, 60, 87);
+    color: white;
+    border: solid 1px white;
 }
 .logo{
-    color: rgb(10, 9, 110);
+    color: rgb(105, 192, 214);
+    margin-left: 7%;
+    margin-top: 2%;
 }
 .logo::before{
     content: '';
-    background-color: red;
-   
+    background-color: rgb(252, 249, 251);
+    display: block;
+    width: 5em;
+    height: 5px;
 }
 .title{
     text-align: center;
-    color: blue;
+    color: white;
 }
  form{
       font-size: 20px;
-     margin-left: 6%; 
-     color: blue;
+     margin-left: 9%; 
+     margin-top: 3%;
+     color: white;
+     
  }
  .container{
     padding: 2%;
     /* width: 80%; */
     margin: 0 10%;
      display: flex;
-     border: solid 2px rgb(22, 85, 156); 
-
+     background-color: rgb(5, 49, 73);
+     border-radius: 10px;
+     border: solid 2px white;
+     background-image: url(images/lively.png);
+     background-repeat: no-repeat;
+     background-size: 80% 90%;
+     background-position: 98% center ;
+     background-blend-mode: overlay;
+     transition: transform 800ms ease;
  }
+ .container:hover{
+    transform: scale(1.05); }
  .talk{
     width: 150px;
     font-size: 18px;
     background-color: white;
-    border: solid 2px blue;
+    border: solid 2px rgb(104, 145, 155);
+    box-shadow: 1px 1px 10px rgb(3, 71, 83);
+    color: rgb(4, 60, 87);
     padding: 2%;
     border-radius: 20px;
-    margin-top: 5%;
+    margin-top: 13%;
+    transition: transform 600ms ease;
+ }
+ .talk:hover {
+    background-color: rgb(4, 60, 87);
+    color:white;
+    transform: scale(1.1);
+ }
+ #or{
+    padding: 0 15px;
  }
  .container img{
-    background-color: rgb(22, 85, 156);
+    background-color: white;
     border-radius: 0% 50% 0% 50%;
     /* width: 50%; */
     /* height: 30%; */
@@ -68,9 +114,17 @@ a{
       border: none;
       padding: 3%;
       border-radius: 15px;
+      background-color: rgb(215, 222, 228);
+      color: rgb(5, 48, 77);
  }
- /* .cont{
-     border: solid black;
-     margin: 1cm 4cm 0cm 4cm;
-     padding-top: 0.5cm;
- } */
+ footer{
+    margin: 2%;
+    border: solid 3px white;
+    padding: 1% 2%;
+}
+footer span{
+    margin-left: 40%;
+}
+ .cont{
+    margin-top: 3%;
+}

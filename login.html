@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lively/Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+
+  <body>
     <div class="navigation">
-    <h1 class="logo">gHEALTH</h1>
-    
-    <nav>
-       
+      <h3 class="logo">lively</h3>
+      <nav>
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
-        <a href="login.html">Login</a>
-    </nav>
+        <a href="login.html" class="active">Login</a>
+        <a href="#contact">Contacts</a>
+      </nav>
     </div>
-    <h2 class="title">Fill in the form below to the doctor</h2>
-    <div  class="cont">
-    <div class="container">
-        <img src="images/DOCTOR2.png" >
-    <form action="submit">
 
-       <p class="detail"> Full name &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fff" id="hhhh"></p>
-       <p class="detail"> Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="" id=""></p>
-       <p class="detail"> Phone Number <input type="number" name="hh" id="kk"></p>
-       <p class="detail"> Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="fff" id="hhhh"></p>
-       <p class="detail">Date of birth &nbsp;&nbsp;&nbsp;   <input type="date" name="" id=""></p>
-       <input type="checkbox" name="" id=""><label >Continue</label> <br>
-       <button class="talk">Texts</button> or <button class="talk">Phone call</button>
-    </form>
-    
-</div>
-</div>
-   
-    
-</div>
-</body>
+    <div class="cont">
+      <h2 class="title">Fill in the form below to talk the doctor</h2>
+
+      <div class="container">
+        <img src="images/DOCTOR2.png" />
+        <form action="submit">
+          <p class="detail">
+            Full name &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input
+              type="text"
+              name="fff"
+              id="hhhh"
+              required
+            />
+          </p>
+          <p class="detail">
+            Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;<input
+              type="email"
+              name=""
+              id=""
+              required
+            />
+          </p>
+          <p class="detail">
+            Phone Number <input type="number" name="hh" id="kk" required />
+          </p>
+          <p class="detail">
+            Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" name="fff" id="hhhh" required />
+          </p>
+          <p class="detail">
+            Date of birth &nbsp;&nbsp;&nbsp;
+            <input type="date" name="" id="" required />
+          </p>
+          <input type="checkbox" name="" id="" required /><label
+            >Continue</label
+          >
+          <br />
+          <button class="talk">Texts</button> <span id="or">or</span>
+          <button class="talk">Phone call</button>
+        </form>
+      </div>
+    </div>
+    <footer id="contact">
+      <span><b>Email: </b> lively@gmail.com</span><br />
+      <span><b>Phone Number: </b> +254 713478996</span><br />
+      <span><b>Address: </b> Nk106, Karongo road </span><br />
+      <span><b>Location: </b> Nairobi, Kenya</span>
+    </footer>
+  </body>
 </html>
