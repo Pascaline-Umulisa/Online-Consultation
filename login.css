@@ -81,7 +81,7 @@ nav a:hover{
      transition: transform 800ms ease;
  }
  .container:hover{
-    transform: scale(1.05); }
+    transform: scale(1.01); }
  .talk{
     width: 150px;
     font-size: 18px;
