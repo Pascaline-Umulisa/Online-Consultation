@@ -8,11 +8,34 @@ let doctorsList = [
         category: 'physical'
     },
     {
-        name: 'Verite Natete',
+        name: 'Umuhoza Christa',
+        category: 'gynacology'
+    }, {
+        name: 'Naima Salim',
+        category: 'family'
+    },
+    {
+        name: 'Judy Maina',
         category: 'therapy'
     },
     {
-        name: 'Umuhoza Christa',
+        name: 'Mercy Yugi',
+        category: 'gynacology'
+    },
+    {
+        name: 'Nakimuli Susan',
+        category: 'hiv'
+    },
+    {
+        name: 'Keza Olivia',
+        category: 'nutrition'
+    },
+    {
+        name: 'Phelisia Jeruto',
+        category: 'therapy'
+    },
+    {
+        name: 'Henriette Cyuzuzo',
         category: 'gynacology'
     },
     {
