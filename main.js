@@ -13,6 +13,8 @@ allDoctors.forEach(category=>
           let listItem = document.createElement("li")
           listItem.innerText = `${item.name}`
           category.appendChild(listItem)
+          listItem.style.visibility="hidden"
+          alert(`The available doctor for ${cat} consultation is ${listItem.textContent}`)
       })
   })
       .catch(function (error) {
